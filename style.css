@@ -1,4 +1,54 @@
 body {
-    background-image: url(images/Untitled\ design\(11\).png);
-
+    background-image: url(images/Untitled\ design\(6\).png);
+    
 }
+
+input-group-text {
+    background-color: black;
+    text-decoration-color: white; 
+    border-left: none;
+    padding-top: 20px;
+    width: 90px;
+}
+
+.form-control {
+    border-right: none;
+}
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 100vh;
+}
+
+.search-container {
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .search-input {
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    outline: none;
+  }
+  
+  .search-button {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .search-button svg {
+    fill: #000;
+  }
+
+  
+;
+  
+
+
