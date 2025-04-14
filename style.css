@@ -1,24 +1,81 @@
 body {
-    background-image: url(images/Untitled\ design\(6\).png);
-    
+  background-image: url(images/Untitled\ design\(6\).png)
 }
 
-input-group-text {
-    background-color: black;
-    text-decoration-color: white; 
-    border-left: none;
-    padding-top: 20px;
-    width: 90px;
+.profile-card {
+  font-family: 'Arial', sans-serif;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.form-control {
-    border-right: none;
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-section {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    height: 100vh;
+.header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.header nav ul li {
+  margin-right: 20px;
+}
+
+.header button.sign-up {
+  background-color:;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.content {
+  padding-top: 20px;
+  display: flex;
+}
+
+.main-info {
+  flex: 2;
+  padding-right: 20px;
+}
+
+.main-info .rank {
+  font-weight: bold;
+}
+
+.main-info h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.about-section {
+  flex: o;
+  margin-bottom: ;
+}
+
+.about-section h2 {
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.about-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-section ul li {
+  padding: 5px 0;
 }
 
 .search-container {
@@ -47,8 +104,20 @@ section {
     fill: #000;
   }
 
+  .purple-card {
+    width: 1000px; /* Adjust as needed */
+    height: 600px; /* Adjust as needed */
+    position: relative; /* Needed for absolute positioning of the image */
+    margin: 0;
+    align-items: center;
+  }
   
-;
-  
-
-
+  .anime-image {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%); /* Centers the image */
+    /* Additional styling for the image can be added here */
+    max-width: 100%; /* Ensures the image doesn't overflow its container */
+    max-height: 100%; /* Ensures the image doesn't overflow its container */
+  }
