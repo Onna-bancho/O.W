@@ -1,84 +1,100 @@
 body {
-  background-image: url(images/Untitled\ design\(6\).png)
+  background-image: url(Images/Untitled\ design\(6\).png);
+  height: 100vh;
 }
 
-.profile-card {
-  font-family: 'Arial', sans-serif;
-  border-radius: 10px;
-  overflow: hidden;
-  width: 80%;
-  max-width: 800px;
-  margin: 20px auto;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+.container {
+    font-family: sans-serif;
+    background-color: blueviolet;
+    color: #333;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+  }
+  
+  header {
+    background-color: blueviolet;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding-left: 35px;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
 
-.header {
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .submit-info {
+    margin-left: 10px;
+    align-items: start;
+  }
 
-.header nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
+  search-container {
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 300px;
+    padding-left: 20px;
+  }
+  
+  main {
+    display: flex;
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .profile {
+    flex: 2;
+    padding-left: 25px;
+  }
+  
+  .rank {
+    font-size: 2em;
+    color: whitesmoke;
+  }
+  
+  .name {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    line-height: 1.6;
+  }
+  
+  .about {
+    padding-left: 40px;
+  }
+  
+  .about ul {
+    list-style: none;
+    padding-left: 210px;
+    padding-top: 50px;
+    margin: 0;
+  }
+  
+  .about li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
 
-.header nav ul li {
-  margin-right: 20px;
-}
-
-.header button.sign-up {
-  background-color:;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.content {
-  padding-top: 20px;
-  display: flex;
-}
-
-.main-info {
-  flex: 2;
-  padding-right: 20px;
-}
-
-.main-info .rank {
-  font-weight: bold;
-}
-
-.main-info h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-.about-section {
-  flex: o;
-  margin-bottom: ;
-}
-
-.about-section h2 {
-  border-bottom: 2px solid;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
-.about-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about-section ul li {
-  padding: 5px 0;
-}
-
-.search-container {
+  .search-container {
     display: flex;
     border: 1px solid #000;
     border-radius: 20px;
@@ -104,20 +120,8 @@ body {
     fill: #000;
   }
 
-  .purple-card {
-    width: 1000px; /* Adjust as needed */
-    height: 600px; /* Adjust as needed */
-    position: relative; /* Needed for absolute positioning of the image */
-    margin: 0;
-    align-items: center;
+  .image-b {
+    padding-bottom: 2000px;
+    padding-left: 100px;
   }
   
-  .anime-image {
-    position: absolute;
-    top: 100%;
-    left: 100%;
-    transform: translate(-50%, -50%); /* Centers the image */
-    /* Additional styling for the image can be added here */
-    max-width: 100%; /* Ensures the image doesn't overflow its container */
-    max-height: 100%; /* Ensures the image doesn't overflow its container */
-  }
