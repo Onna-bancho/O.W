@@ -70,7 +70,7 @@ body {
     flex: 4;
     transform: translateY(-3%);
     padding-bottom: 0px;
-    padding-right: 108px;
+    padding-right: 20px;
   }
   
   .rank {
@@ -144,8 +144,8 @@ body {
 
   .image-b {
     bottom: 90%;
-    transform: translateY(-80%);
-    padding-right: 130px;
+    transform: translateY(-83%);
+    padding-right: 200px;
 
 
 
