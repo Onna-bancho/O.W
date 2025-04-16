@@ -1,39 +1,48 @@
 body {
-  background-image: url(images/Untitled\ design\(6\).png);
-  height: 100vh;
+  background-image: url(images/Untitled\ design\(15\).png);
+  height: 130vh;
+  box-sizing: border-box;
+  display: block;
+  float: none;
+  line-height: 24px;
+  position: static;
+  z-index: auto;
 }
+
 
 .container {
     font-family: sans-serif;
     position: relative;
     top: 70%;
     transform: translateY(-40%);
-    background-color: blueviolet;
+    background-color: rgb(12, 13, 49);
     margin: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 700px;
-    width: 2000px;
+    width: 2700px;
   }
   
   header {
-    background-color: blueviolet;
-    padding: 20px;
+    background-color: rgb(12, 13, 49);
+    padding: 45px;
     display: flex;
+    padding-right: 151px;
+    transform: translateY(-1%);
     justify-content: space-between;
-    align-items: center;
+  
   }
   
   nav ul {
     list-style: none;
-    padding-left: 35px;
+    padding-left: 590px;
     margin: 0;
     display: flex;
   }
   
   nav li {
-    margin-right: 20px;
+    margin-right: 50px;
     cursor: pointer;
   }
 
@@ -58,15 +67,17 @@ body {
   }
   
   .profile {
-    flex: 1;
-    transform: translateY(-3%);
-
-    padding-left: 15px;
+    flex: 4;
+    transform: translateY(-5%);
+    padding-bottom: 0px;
+    padding-right: 130px;
   }
   
   .rank {
     font-size: 2em;
+    transform: translateY(3%);
     color: whitesmoke;
+    top: 50px;
   }
   
   .name {
@@ -80,6 +91,8 @@ body {
   
   .about {
     padding-left: 40px;
+    transform: translateY(-5%);
+
   }
   
   .about ul {
@@ -96,8 +109,11 @@ body {
   
   footer {
     text-align: center;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    color: rgb(12, 13, 49);
+    transform: translateY(-88%);
+    top: 200px;
+    
   }
 
   .search-container {
@@ -127,9 +143,10 @@ body {
   }
 
   .image-b {
-    bottom: 70%;
-    transform: translateY(-84%);
-    padding-right: 7px;
+    bottom: 90%;
+    transform: translateY(-78%);
+    padding-right: 130px;
+
 
 
     
