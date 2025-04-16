@@ -36,7 +36,7 @@ body {
   
   nav ul {
     list-style: none;
-    padding-right: 711px;
+    padding-right: 560px;
     margin: 0;
     display: flex;
   }
@@ -53,7 +53,7 @@ body {
 
   search-container {
     display: flex;
-    border: 1px solid #000;
+    border: 1px solid black;
     border-radius: 20px;
     overflow: hidden;
     width: 300px;
@@ -118,10 +118,11 @@ body {
 
   .search-container {
     display: flex;
-    border: 1px solid #000;
+    border: 1px solid whitesmoke;
     border-radius: 50px;
     overflow: hidden;
     width: 150px;
+    height: 36px;
   }
   
   .search-input {
@@ -139,7 +140,7 @@ body {
   }
   
   .search-button svg {
-    fill: #000
+    fill: black;
   }
 
   .image-b {
