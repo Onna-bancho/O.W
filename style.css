@@ -36,7 +36,7 @@ body {
   
   nav ul {
     list-style: none;
-    padding-left: 300px;
+    padding-right: 711px;
     margin: 0;
     display: flex;
   }
@@ -68,9 +68,9 @@ body {
   
   .profile {
     flex: 4;
-    transform: translateY(-5%);
+    transform: translateY(-3%);
     padding-bottom: 0px;
-    padding-right: 130px;
+    padding-right: 108px;
   }
   
   .rank {
@@ -91,14 +91,14 @@ body {
   
   .about {
     padding-left: 40px;
-    transform: translateY(-5%);
+    transform: translateY(-3%);
 
   }
   
   .about ul {
     list-style: none;
     padding-left: 210px;
-    padding-top: 50px;
+    padding-top: 48px;
     margin: 0;
   }
   
