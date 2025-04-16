@@ -10,22 +10,28 @@
   <body class="flex-box ">
     <div class="container">
       <header>
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="images/OT.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top justify-contain-start rounded-circle">
-              Otaku
-            </a>
-            <ul class="text-white">
-              <li class="text-start">Home</li>
-              <li class="text-start">Characters</li>
-              <li class="text-start">Help</li>
+            <a class="navbar-brand text-white" href="#"><img src="images/OT.png" class="rounded-circle" alt="" height="30px" width="30px"> Otaku</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-black" aria-current="page" href="#">Characters</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-black" aria-current="page" href="#">Help</a>
+              </li>
             </ul>
           </div>
-        </nav> 
-           
-          
-        
+        </nav>
+        <form class="d-flex" role="search">
+          <input id="search-bar" class="form-control me-2" type="search-submit" placeholder="Search" aria-label="Search">
+        </form>
         
       </header>
       <main>

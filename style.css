@@ -28,7 +28,7 @@ body {
     background-color: rgb(12, 13, 49);
     padding: 45px;
     display: flex;
-    padding-right: 151px;
+    padding-right: 101px;
     transform: translateY(-1%);
     justify-content: space-between;
   
@@ -36,13 +36,13 @@ body {
   
   nav ul {
     list-style: none;
-    padding-left: 590px;
+    padding-left: 300px;
     margin: 0;
     display: flex;
   }
   
   nav li {
-    margin-right: 50px;
+    margin-right: 30px;
     cursor: pointer;
   }
 
@@ -119,9 +119,9 @@ body {
   .search-container {
     display: flex;
     border: 1px solid #000;
-    border-radius: 20px;
+    border-radius: 50px;
     overflow: hidden;
-    width: 300px;
+    width: 150px;
   }
   
   .search-input {
@@ -139,7 +139,7 @@ body {
   }
   
   .search-button svg {
-    fill: #000;
+    fill: #000
   }
 
   .image-b {
