@@ -1,6 +1,6 @@
 body {
   background-image: url(images/Untitled\ design\(15\).png);
-  height: 130vh;
+  height: 166vh;
   box-sizing: border-box;
   display: block;
   float: none;
@@ -28,7 +28,7 @@ body {
     background-color: rgb(12, 13, 49);
     padding: 45px;
     display: flex;
-    padding-right: 101px;
+    padding-right: 50px;
     transform: translateY(-1%);
     justify-content: space-between;
   
@@ -111,8 +111,8 @@ body {
     text-align: center;
     padding: 30px;
     color: rgb(12, 13, 49);
-    transform: translateY(-88%);
-    top: 200px;
+    transform: translateY(-100%);
+    padding-bottom: 10px;
     
   }
 
@@ -144,7 +144,7 @@ body {
 
   .image-b {
     bottom: 90%;
-    transform: translateY(-78%);
+    transform: translateY(-80%);
     padding-right: 130px;
 
 
