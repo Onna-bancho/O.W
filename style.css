@@ -1,9 +1,12 @@
 body {
-  background-image: url(images/Untitled\ design\(15\).png);
-  height: 166vh;
+  background-image: url(images/Untitled\ design\(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: 140% 100%;
+  height: 100vh;
   box-sizing: border-box;
   display: block;
   float: none;
+  overflow: hidden;
   line-height: 24px;
   position: static;
   z-index: auto;
@@ -14,22 +17,23 @@ body {
     font-family: sans-serif;
     position: relative;
     top: 70%;
-    transform: translateY(-40%);
-    background-color: rgb(12, 13, 49);
+    transform: translateY(-73%);
+    background-color: rgb(10, 1, 1);
     margin: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 700px;
-    width: 2700px;
+    height: 650px;
+    width: 2500px;
+    border-radius: 10px;
   }
   
   header {
-    background-color: rgb(12, 13, 49);
+    background-color: rgb(10, 1, 1);
     padding: 45px;
     display: flex;
     padding-right: 50px;
-    transform: translateY(-1%);
+    transform: translateY(1%);
     justify-content: space-between;
   
   }
@@ -145,8 +149,8 @@ body {
 
   .image-b {
     bottom: 90%;
-    transform: translateY(-83%);
-    padding-right: 200px;
+    transform: translateY(-87%);
+    padding-right: 230px;
 
 
 
