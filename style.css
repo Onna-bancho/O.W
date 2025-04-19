@@ -17,14 +17,14 @@ body {
     font-family: sans-serif;
     position: relative;
     top: 70%;
-    transform: translateY(-73%);
+    transform: translateY(-70%);
     background-color: rgb(10, 1, 1);
     margin: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 650px;
-    width: 2500px;
+    height: 670px;
+    width: 2000px;
     border-radius: 10px;
   }
   
@@ -149,7 +149,7 @@ body {
 
   .image-b {
     bottom: 90%;
-    transform: translateY(-87%);
+    transform: translateY(-85%);
     padding-right: 230px;
 
 
