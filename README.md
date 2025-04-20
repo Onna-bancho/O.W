@@ -1,3 +1,3 @@
 # O.W
-Sung Jin Woo
-recent:///6dae02908af5e5034b27c2946802e07d
+## SUNG JIN WOO
+https://github.com/onna-bancho/O.W/blob/main/image.Screenshot from 2025-04-19 02-02-27.png?raw=true
