@@ -1,3 +1,3 @@
 # Sung Jin Woo
-## alt="O.W/home/minette/Screenshots/sung Jin Woo.png"
+## https://github.com/Onna-bancho/O.W/
 
