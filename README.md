@@ -1,4 +1,3 @@
 # O.W
-##/home/minette/O.W/Jung jin woo
-
+##[alt="an image of my one page website"](/home/minette/O.W/Jung jin woo)
 
